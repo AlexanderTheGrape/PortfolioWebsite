@@ -16,10 +16,10 @@ function Header() {
       </A>
       <NavBar>
         <HeaderLink to="/">
-          <FormattedMessage {...messages.home} />
-        </HeaderLink>
-        <HeaderLink to="/portfolioHome">
           <FormattedMessage {...messages.portfolioHome} />
+        </HeaderLink>
+        <HeaderLink to="/boilerplateHome">
+          <FormattedMessage {...messages.home} />
         </HeaderLink>
         <HeaderLink to="/features">
           <FormattedMessage {...messages.features} />
